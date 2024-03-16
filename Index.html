@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body style="background-color:#1c87c9;">
+    <div class="topnav">
+        
+        <a class="active" href="Index.html"><img src="LOGO.png" alt="cmd" width="150" height="20"></a>
+        <a href="contact.html" style="color:white">Contact</a>
+        <a href="about.html" style="color:white">About</a>
+        
+      </div>
+      
+      
+      <div style="padding-left:16px">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Welcome to CodeCademy</h1>
+      </div>
+    <h2>DOS Commands Tutorial</h2>
+    <section class="container">
+        <div class="left-side">
+            <h2>What are DOS commands?</h2>
+             <p>DOS commands are a set of commands used to interact with the Disk Operating System, allowing users to perform tasks like navigating directories, managing files, and configuring system settings directly from the command line interface.</p>
+        </div>
+        <div class="right-side">
+            <img src="CMD1.png" alt="cmd" width="635" height="356">
+        </div>
+    </section>
+    <div style="padding-left:16px">
+        
+      </div>
+      <br>
+    <section class="container">
+        <div class="left-side">
+            <h2>How to get started?</h2>
+             <p>First is open the command prompt or CMD in your PC.There are multiple ways to open CMD, here are some:</p>
+             <p>Method 1: Click both Win + X at the same time and a small window will pop up. Select Either “Terminal” for “user” level of access or “Terminal (Admin) for “Administrator” level of access</p>
+        </div>
+        <div class="right-side">
+            <img src="POP.png" alt="cmd" width="635" height="356">
+        </div>
+    </section>
+    <div style="padding-left:16px">
+        
+    </div>
+    <br>
+  <section class="container">
+      <div class="left-side">          
+           <p>
+            Method 2: Open File manager/ File explorer click on the Directory Bar, then Type CMD.
+            </p>
+      </div>
+      <div class="right-side">
+          <img src="DIRECTION.png" alt="cmd" width="635" height="356">
+      </div>
+  </section>
+  <div style="padding-left:16px">
+        
+  </div>
+  <br>
+<section class="container">
+    <div class="left-side">          
+         <p>
+            Congratulations!!! You are ready to go!
+          </p>
+          <p>Now to get started let’s do some of the most basic DOS commands</p>
+          <p>I will put a Table of commands bellow with their syntax and descriptions on how to use them</p>
+          <p>You can also watch our Youtube video from better learning experience</p>
+    </div>
+    <div class="video-container">
+      <iframe width="635" height="356" src="https://www.youtube.com/embed/MNwErTxfkUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<div style="padding-left: 100px;padding-right: 100px;">
+  <main>
+    <section id="dir">
+      <h2>DIR</h2>
+      <p>Lists the contents of a directory.</p>
+      <pre><code>DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N] [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4]</code></pre>
+    </section>
+    <section id="cd">
+      <h2>CD</h2>
+      <p>Changes the current directory.</p>
+      <pre><code>CD [/D] [drive:][path]</code></pre>
+    </section>
+    <section id="copy">
+      <h2>COPY</h2>
+      <p>Copies one or more files.</p>
+      <pre><code>COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/A | /B ] source [/A | /B] [+ source [/A | /B] [+ ...]] [destination [/A | /B]]</code></pre>
+    </section>
+    <section id="del">
+      <h2>DEL</h2>
+      <p>Deletes one or more files.</p>
+      <pre><code>DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names</code></pre>
+    </section>
+    <section id="md">
+      <h2>MD</h2>
+      <p>Creates a directory.</p>
+      <pre><code>MD directoryname</code></pre>
+    </section>
+    <section id="rd">
+      <h2>RD</h2>
+      <p>Removes a directory.</p>
+      <pre><code>RD [/S] [/Q] [drive:]path</code></pre>
+    </section>
+    <section id="ren">
+      <h2>REN</h2>
+      <p>Renames a file or directory.</p>
+      <pre><code>REN [drive:][path]filename1 filename2</code></pre>
+    </section>
+    <section id="type">
+      <h2>TYPE</h2>
+      <p>Displays the contents of a text file.</p>
+      <pre><code>TYPE [drive:][path]filename</code></pre>
+    </section>
+    <section id="find">
+      <h2>FIND</h2>
+      <p>Searches for a text string in a file or files.</p>
+      <pre><code>FIND "string" [drive:][path]filename</code></pre>
+    </section>
+    <section id="fc">
+      <h2>FC</h2>
+      <p>Compares two files or sets of files and displays the differences between them.</p>
+      <pre><code>FC [/A] [/B] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T] [/U] [/W] [/nnnn] [drive1:][path1]filename1 [drive2:][path2]filename2</code></pre>
+    </section>
+    <section id="sort">
+      <h2>SORT</h2>
+      <p>Sorts the input and writes it to the output.</p>
+      <pre><code>SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]</code></pre>
+    </section>
+    <section id="tree">
+      <h2>TREE</h2>
+      <p>Graphically displays the directory structure of a drive or path.</p>
+      <pre><code>TREE [drive:][path] [/F] [/A]</code></pre>
+    </section>
+    <section id="xcopy">
+      <h2>XCOPY</h2>
+      <p>Copies files and directory trees.</p>
+      <pre><code>XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L] [/G] [/H] [/R] [/T] [/U] [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z] [/B] [/J]</code></pre>
+    </section>
+    <section id="ipconfig">
+      <h2>IPCONFIG</h2>
+      <p>Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings.</p>
+      <pre><code>IPCONFIG [/all] [/renew [Adapter]] [/release [Adapter]] [/flushdns] [/displaydns] [/registerdns] [/showclassid Adapter] [/setclassid Adapter [ClassID]]</code></pre>
+    </section>
+    <section id="ping">
+      <h2>PING</h2>
+      <p>Sends ICMP Echo Request packets to a specified network host to check if it is reachable.</p>
+      <pre><code>PING [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS] [-r count] [-s count] [[-j host-list] | [-k host-list]] [-w timeout] target_name</code></pre>
+    </section>
+    <section id="tracert">
+      <h2>TRACERT</h2>
+      <p>Traces the route that packets take to a specified network host.</p>
+      <pre><code>TRACERT [-d] [-h maximum_hops] [-j host-list] [-w timeout] target_name</code></pre>
+    </section>
+    <section id="net">
+      <h2>NET</h2>
+      <p>Manages network resources.</p>
+      <pre><code>NET ACCOUNTS [/FORCELOGOFF:{minutes | NO}] [/MINPWLEN:length] [/MAXPWAGE:{days | UNLIMITED}] [/MINPWAGE:days] [/UNIQUEPW:number | /DOMAIN] [/DOMAIN]</code></pre>
+    </section>
+    <section id="netstat">
+      <h2>NETSTAT</h2>
+      <p>Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 statistics (for the IP, ICMP, TCP, and UDP protocols), and IPv6 statistics (for the IPv6, ICMPv6, TCP over IPv6, and UDP over IPv6 protocols).</p>
+      <pre><code>NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-t] [interval]</code></pre>
+    </section>
+    <section id="shutdown">
+      <h2>SHUTDOWN</h2>
+      <p>Shuts down or restarts the local or remote computer.</p>
+      <pre><code>SHUTDOWN [-i | -l | -s | -r | -a] [-f] [-m \\computername] [-t xx] [-c "comment"] [-d up:xx:yy]</code></pre>
+    </section>
+    <section id="systeminfo">
+      <h2>SYSTEMINFO</h2>
+      <p>Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties (such as RAM, disk space, and network cards).</p>
+      <pre><code>SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]</code></pre>
+    </section>
+    <section id="tasklist">
+      <h2>TASKLIST</h2>
+      <p>Displays a list of currently running processes on a local or remote computer.</p>
+      <pre><code>TASKLIST [/S system [/U username [/P [password]]]] [/M [module] | /SVC | /V] [/FI filter] [/FO format] [/NH]</code></pre>
+    </section>
+    <section id="taskkill">
+      <h2>TASKKILL</h2>
+      <p>Terminates one or more processes or applications forcefully.</p>
+      <pre><code>TASKKILL [/S system [/U username [/P [password]]]] { [/FI filter] [/PID processid | /IM imagename] } [/T] [/F]</code></pre>
+    </section>
+    <section id="gpupdate">
+      <h2>GPUPDATE</h2>
+      <p>Refreshes local and Active Directory-based Group Policy settings, including security settings.</p>
+      <pre><code>GPUPDATE [/Target:{Computer | User}] [/Force] [/Wait:value] [/Logoff] [/Boot] [/Sync]</code></pre>
+    </section>
+    <section id="netsh">
+      <h2>NETSH</h2>
+      <p>Netsh is a command-line scripting utility that allows you to display or modify the network configuration of a computer that is currently running.</p>
+      <pre><code>NETSH [-a AliasFile] [-c Context] [-r RemoteMachine] [-u [DomainName\]UserName] [-p Password | *] [Command | -f ScriptFile]</code></pre>
+    </section>
+    <section id="attrib">
+      <h2>ATTRIB</h2>
+      <p>Displays or changes file attributes.</p>
+      <pre><code>ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [drive:][path][filename] [/S [/D]]</code></pre>
+    </section>
+    <section id="chkdsk">
+      <h2>CHKDSK</h2>
+      <p>Checks a disk and displays a status report.</p>
+      <pre><code>CHKDSK [volume[[path]filename]]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:size]]</code></pre>
+    </section>
+    <section id="format">
+      <h2>FORMAT</h2>
+      <p>Formats a disk for use with Windows.</p>
+      <pre><code>FORMAT volume [/FS:file-system] [/V:label] [/Q] [/A:size] [/C] [/X]</code></pre>
+    </section>
+    <section id="help">
+      <h2>HELP</h2>
+      <p>Provides help information for Windows commands.</p>
+      <pre><code>HELP [command]</code></pre>
+    </section>
+    <section id="echo">
+      <h2>ECHO</h2>
+      <p>Displays messages or turns command echoing on or off.</p>
+      <pre><code>ECHO [ON | OFF | message]</code></pre>
+  </section>
+  <section id="cls">
+      <h2>CLS</h2>
+      <p>Clears the screen.</p>
+      <pre><code>CLS</code></pre>
+  </section>
+  
+  </main>
+</div>
+
+  <footer>
+    <p>&copy; 2024 CodeCademy. All rights reserved. "Made by Adrian/Malbert"</p>
+  </footer>
+</body>
+</html>
